@@ -690,6 +690,7 @@ img {
 .button-close:hover,
 .button-close:focus {
   fill: var(--accent-color);
+  outline-color: var(--accent-color);
 }
 
 .modal-text {
@@ -750,7 +751,7 @@ img {
 .form-input:hover,
 .form-input:focus {
   border: 1px solid var(--accent-color);
-  outline: 0;
+  outline-color: var(--accent-color);
 }
 
 .form-input:hover ~ .icon,
@@ -772,7 +773,7 @@ img {
 .form-textarea:hover,
 .form-textarea:focus {
   border: 1px solid var(--accent-color);
-  outline: 0;
+  outline-color: var(--accent-color);
 }
 
 .form-textarea::placeholder {
