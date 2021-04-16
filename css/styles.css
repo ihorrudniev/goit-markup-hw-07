@@ -494,25 +494,24 @@ img {
   color: var(--main-color);
 }
 
-.geoposition {
+.address {
   font-style: normal;
   color: var(--main-color);
 }
 
-.geoposition .link {
+.footer-auth-nav__link {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.auth-nav-item:not(:first-child) {
+.footer-auth-nav {
+  flex-direction: column;
   margin-top: 9px;
 }
 
-.footer .auth-nav {
-  flex-direction: column;
+.footer-auth-nav__item:not(:first-child) {
   margin-top: 9px;
 }
 
