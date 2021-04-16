@@ -37,7 +37,7 @@ body {
 }
 /* --------спрятать текст---------- */
 
-.visually-hidden {
+.section__visually--hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -89,13 +89,13 @@ img {
   margin-left: auto;
 }
 
+/*--------------logo------------ */
+
 .page-header,
 .navigation {
   display: flex;
   align-items: center;
 }
-
-/*--------------logo------------ */
 
 .logo {
   display: block;
@@ -160,31 +160,22 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-mail {
+.auth-nav__icon {
   display: inline-flex;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.icon-phone {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.auth-nav .item + .item {
+.auth-nav__item + .auth-nav__item {
   margin-left: 30px;
 }
 
-.link.current {
+.site-nav__current {
   position: relative;
   color: var(--accent-color);
 }
 
-/* .site-nav .link {
-  position: relative;
-  } */
-
-.link.current::after {
+.site-nav__current::after {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -196,20 +187,26 @@ img {
   background-color: var(--accent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus,
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus,
+.auth-nav__link:hover,
+.auth-nav__link:focus {
   color: var(--accent-color);
 }
 
 /* ---------Баннер Герой---------- */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   margin: auto;
 
@@ -223,16 +220,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-color);
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.section.hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
 }
 
 .section.hero {
@@ -272,7 +259,7 @@ img {
 }
 
 /*---------Особенности студии--------- */
-.section-title {
+.section__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -341,7 +328,7 @@ img {
   margin-right: 30px;
 }
 
-.container > .section-title {
+.container > .section__title {
   margin-bottom: 50px;
 }
 
@@ -488,7 +475,7 @@ img {
 
 /* ---------Footer--------------*/
 
-.our-contacts {
+.footer-contacts {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -539,15 +526,15 @@ img {
   color: var(--main-color);
 }
 
-.card-footer {
+.footer-card {
   flex-basis: calc((50% - 45px) / 2);
 }
 
-.card-footer .social-icon-link {
+.footer-card .social-icon-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.card-footer .icon {
+.footer-card .icon {
   fill: var(--main-color);
 }
 
@@ -556,7 +543,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.card-footer-news {
+.footer-card-news {
   flex-basis: calc(50% - 15px);
 }
 
