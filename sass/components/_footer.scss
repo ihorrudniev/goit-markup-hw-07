@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: $container-bg-color;
+  background-color: --container-bg-color;
 }
 
 .footer-card {
@@ -16,12 +16,12 @@
 }
 
 .logo-main-color {
-  color: $main-color;
+  color: var(--main-color);
 }
 
 .address {
   font-style: normal;
-  color: $main-color;
+  color: var(--main-color);
 }
 
 .footer-nav {
@@ -38,7 +38,7 @@
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: --accent-color;
   }
 }
 
@@ -53,7 +53,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: $main-color;
+  color: var(--main-color);
 }
 
 .social__link--whitebg {
@@ -61,12 +61,12 @@
 }
 
 .social__icon--fillcolor {
-  fill: $main-color;
+  fill: var(--main-color);
 }
 
 .social__link:hover,
 .social__link:focus {
-  background-color: $accent-color;
+  background-color: --accent-color;
 }
 
 .card-news {
@@ -80,7 +80,7 @@
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: $main-color;
+  color: var(--main-color);
 }
 
 .forms {
@@ -106,7 +106,7 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: $container-bg-color;
+  background-color: --container-bg-color;
 }
 
 .button__title {
@@ -124,10 +124,10 @@
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: $main-color;
+  color: var(--main-color);
 }
 
 .button__icon {
   margin-left: 10px;
-  fill: $main-color;
+  fill: var(--main-color);
 }

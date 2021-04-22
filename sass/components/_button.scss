@@ -6,8 +6,8 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: $main-color;
-  background-color: $accent-color;
+  color: var(--main-color);
+  background-color: --accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
@@ -16,6 +16,6 @@
 
   &:hover,
   &:focus {
-    background-color: $button-bg-color;
+    background-color: --button-bg-color;
   }
 }

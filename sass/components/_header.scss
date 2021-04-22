@@ -23,7 +23,7 @@
 .site-nav__link {
   display: block;
   text-decoration: none;
-  color: $title-color;
+  color: --title-color;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -32,13 +32,13 @@
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: --accent-color;
   }
 }
 
 .site-nav__current {
   position: relative;
-  color: $accent-color;
+  color: --accent-color;
 
   &::after {
     position: absolute;
@@ -47,9 +47,9 @@
 
     content: '';
     width: 100%;
-    border: 2px solid $accent-color;
+    border: 2px solid --accent-color;
     border-radius: 2px;
-    background-color: $accent-color;
+    background-color: --accent-color;
   }
 }
 
@@ -67,12 +67,12 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: $main-text-color;
+  color: --main-text-color;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: --accent-color;
   }
 }
 

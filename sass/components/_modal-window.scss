@@ -46,15 +46,15 @@
   height: 30px;
   border: 2px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
-  background-color: $main-color;
+  background-color: var(--main-color);
   cursor: pointer;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    fill: $accent-color;
-    outline-color: $accent-color;
+    fill: --accent-color;
+    outline-color: --accent-color;
   }
 }
 
@@ -66,7 +66,7 @@
   font-size: 20px;
   line-height: 1.15;
 
-  color: $title-color;
+  color: --title-color;
 }
 
 .form {
@@ -90,21 +90,21 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
-  color: $main-text-color;
+  color: --main-text-color;
 }
 
 .form__icon {
   position: absolute;
   top: 50%;
   left: 12px;
-  fill: $title-color;
+  fill: --title-color;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    fill: $accent-color;
+    fill: --accent-color;
 
-    outline-color: $accent-color;
+    outline-color: --accent-color;
     cursor: pointer;
   }
 }
@@ -121,13 +121,13 @@
 
   &:hover,
   &:focus {
-    border: 1px solid $accent-color;
-    outline-color: $accent-color;
+    border: 1px solid --accent-color;
+    outline-color: --accent-color;
   }
 
   &:hover ~ .form__icon,
   &:focus ~ .form__icon {
-    fill: $accent-color;
+    fill: --accent-color;
   }
 }
 
@@ -142,8 +142,8 @@
 
   &:hover,
   &:focus {
-    border: 1px solid $accent-color;
-    outline-color: $accent-color;
+    border: 1px solid --accent-color;
+    outline-color: --accent-color;
   }
 
   &::placeholder {
@@ -168,7 +168,7 @@
   margin-right: 8.38px;
   width: 16px;
   height: 15px;
-  border: 2px solid $title-color;
+  border: 2px solid --title-color;
   border-radius: 2px;
   cursor: pointer;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -176,7 +176,7 @@
 
   &:hover,
   &:focus {
-    border: 2px solid $title-color;
+    border: 2px solid --title-color;
   }
 }
 
@@ -184,8 +184,8 @@
   appearance: none;
 }
 .checkbox__input:checked + .checkbox__icon {
-  border-color: $accent-color;
-  background-color: $accent-color;
+  border-color: --accent-color;
+  background-color: --accent-color;
   background-image: url(../images/icon/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
@@ -198,7 +198,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: $accent-color;
+  color: --accent-color;
 }
 
 .form__submit {
@@ -214,8 +214,8 @@
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: $main-color;
-  background: $accent-color;
+  color: var(--main-color);
+  background: --accent-color;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -224,7 +224,7 @@
 
   &:hover,
   &:focus {
-    color: $main-color;
-    background: $button-bg-color;
+    color: var(--main-color);
+    background: --button-bg-color;
   }
 }
