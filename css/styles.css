@@ -91,12 +91,6 @@ img {
 
 /*--------------logo------------ */
 
-.page-header,
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
 .logo {
   display: block;
 
@@ -114,6 +108,12 @@ img {
 }
 
 /*---------шапка сайта---------- */
+
+.page-header,
+.navigation {
+  display: flex;
+  align-items: center;
+}
 
 .site-nav {
   display: flex;
