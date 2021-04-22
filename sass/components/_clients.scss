@@ -2,12 +2,12 @@
   display: flex;
   margin-left: calc(-1 * #{$card-set-gap});
   margin-top: calc(-1 * #{$card-set-gap});
+}
 
-  &__item {
-    flex-basis: calc(100% / 6 - #{$card-set-gap});
-    margin-left: $card-set-gap;
-    margin-top: $card-set-gap;
-  }
+.clients__item {
+  flex-basis: calc(100% / 6 - #{$card-set-gap});
+  margin-left: $card-set-gap;
+  margin-top: $card-set-gap;
 }
 
 .clients__link {

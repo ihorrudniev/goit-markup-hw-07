@@ -9,20 +9,20 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
 
-  &__title {
-    margin-bottom: 30px;
-    margin: auto;
+.hero__title {
+  margin-bottom: 30px;
+  margin: auto;
 
-    width: 696px;
+  width: 696px;
 
-    font-family: Roboto, sans-serif;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: $main-color;
-  }
+  font-family: Roboto, sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $main-color;
 }
