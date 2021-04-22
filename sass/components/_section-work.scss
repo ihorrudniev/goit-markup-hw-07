@@ -16,17 +16,17 @@
 
 .work__thumb {
   position: relative;
-}
 
-.work__thumb::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 70px;
-  width: 100%;
-  background-color: $container-bg-color;
-  opacity: 0.8;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background-color: $container-bg-color;
+    opacity: 0.8;
+  }
 }
 
 .work__item {
