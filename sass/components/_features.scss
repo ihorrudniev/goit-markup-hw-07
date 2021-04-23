@@ -54,8 +54,8 @@
 //   background-image: url(../images/icon/astronaut.svg);
 // }
 
-@each $features in 'antenna', 'clock', 'diagram', 'astronaut' {
-  .#{$features}-icon::before {
-    background-image: url(../../images/icon/#{$features}.svg);
+@each $iconName in 'antenna', 'clock', 'diagram', 'astronaut' {
+  .#{$iconName}-icon::before {
+    background-image: url(../../images/icon/#{$iconName}.svg);
   }
 }
