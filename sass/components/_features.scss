@@ -56,6 +56,6 @@
 
 @each $features in antenna, clock, diagram, astronaut {
   .#{$features}-icon::before {
-    background-image: url(../../images/icon/#{$features}.svg);
+    background-image: url(../images/icon/#{$features}.svg);
   }
 }
