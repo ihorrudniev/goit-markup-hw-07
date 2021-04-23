@@ -284,20 +284,20 @@ img {
   color: var(--title-color);
 }
 
-.icon-detail::before {
-  background-image: url(../images/icon/antenna.svg);
+.antenna-icon::before {
+  background-image: url(../../images/icon/antenna.svg);
 }
 
-.icon-accuracy::before {
-  background-image: url(../images/icon/clock.svg);
+.clock-icon::before {
+  background-image: url(../../images/icon/clock.svg);
 }
 
-.icon-planing::before {
-  background-image: url(../images/icon/diagram.svg);
+.diagram-icon::before {
+  background-image: url(../../images/icon/diagram.svg);
 }
 
-.icon-space::before {
-  background-image: url(../images/icon/astronaut.svg);
+.astronaut-icon::before {
+  background-image: url(../../images/icon/astronaut.svg);
 }
 
 .section-work {
