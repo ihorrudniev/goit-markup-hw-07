@@ -38,24 +38,24 @@
   color: var(--title-color);
 }
 
-.antenna-icon::before {
-  background-image: url(../images/icon/antenna.svg);
-}
-
-.clock-icon::before {
-  background-image: url(../images/icon/clock.svg);
-}
-
-.diagram-icon::before {
-  background-image: url(../images/icon/diagram.svg);
-}
-
-.astronaut-icon::before {
-  background-image: url(../images/icon/astronaut.svg);
-}
-
-// @each $iconName in 'antenna', 'clock', 'diagram', 'astronaut' {
-//   .#{$iconName}-icon::before {
-//     background-image: url(../images/icon/#{$iconName}.svg);
-//   }
+// .antenna-icon::before {
+//   background-image: url(../images/icon/antenna.svg);
 // }
+
+// .clock-icon::before {
+//   background-image: url(../images/icon/clock.svg);
+// }
+
+// .diagram-icon::before {
+//   background-image: url(../images/icon/diagram.svg);
+// }
+
+// .astronaut-icon::before {
+//   background-image: url(../images/icon/astronaut.svg);
+// }
+
+@each $iconName in 'antenna', 'clock', 'diagram', 'astronaut' {
+  .#{$iconName}-icon::before {
+    background-image: url(../images/icon/#{$iconName}.svg);
+  }
+}
