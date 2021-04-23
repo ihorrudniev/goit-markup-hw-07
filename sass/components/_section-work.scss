@@ -24,7 +24,7 @@
     left: 0;
     height: 70px;
     width: 100%;
-    background-color: --container-bg-color;
+    background-color: var(--container-bg-color);
     opacity: 0.8;
   }
 }
@@ -45,5 +45,5 @@
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-color);
 }

@@ -1,7 +1,7 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: --container-bg-color;
+  background-color: var(--container-bg-color);
 }
 
 .footer-card {
@@ -38,7 +38,7 @@
 
   &:hover,
   &:focus {
-    color: --accent-color;
+    color: var(--accent-color);
   }
 }
 
@@ -66,7 +66,7 @@
 
 .social__link:hover,
 .social__link:focus {
-  background-color: --accent-color;
+  background-color: var(--accent-color);
 }
 
 .card-news {
@@ -106,7 +106,7 @@
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: --container-bg-color;
+  background-color: var(--container-bg-color);
 }
 
 .button__title {

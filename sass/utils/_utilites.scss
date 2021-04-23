@@ -15,7 +15,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: --main-text-color;
+  color: var(--main-text-color);
   letter-spacing: 0.03em;
   background-color: var(--main-color);
 }
@@ -59,11 +59,11 @@ img {
 
 .link {
   text-decoration: none;
-  color: --main-text-color;
+  color: var(--main-text-color);
 }
 
 .header {
-  border-bottom: 1px solid --border-bottom-header;
+  border-bottom: 1px solid var(--border-bottom-header);
 }
 
 .container {
