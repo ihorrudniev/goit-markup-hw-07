@@ -38,24 +38,24 @@
   color: var(--title-color);
 }
 
-.antenna-icon::before {
-  background-image: url(../images/icon/antenna.svg);
-}
-
-.clock-icon::before {
-  background-image: url(../images/icon/clock.svg);
-}
-
-.diagram-icon::before {
-  background-image: url(../images/icon/diagram.svg);
-}
-
-.astronaut-icon::before {
-  background-image: url(../images/icon/astronaut.svg);
-}
-
-// @each $features in antenna, clock, diagram, astronaut {
-//   .#{$features}-icon::before {
-//     background-image: url(../images/icon/#{$features}.svg);
-//   }
+// .antenna-icon::before {
+//   background-image: url(../images/icon/antenna.svg);
 // }
+
+// .clock-icon::before {
+//   background-image: url(../images/icon/clock.svg);
+// }
+
+// .diagram-icon::before {
+//   background-image: url(../images/icon/diagram.svg);
+// }
+
+// .astronaut-icon::before {
+//   background-image: url(../images/icon/astronaut.svg);
+// }
+
+@each $features in 'antenna', 'clock', 'diagram', 'astronaut' {
+  .#{$features}-icon::before {
+    background-image: url(../../images/icon/#{$features}.svg);
+  }
+}
