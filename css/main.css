@@ -289,15 +289,15 @@ img {
 }
 
 .clock-icon::before {
-  background-image: url(../../images/icon/clock.svg);
+  background-image: url(../../images/icon/antenna.svg);
 }
 
 .diagram-icon::before {
-  background-image: url(../../images/icon/diagram.svg);
+  background-image: url(../../images/icon/antenna.svg);
 }
 
 .astronaut-icon::before {
-  background-image: url(../../images/icon/astronaut.svg);
+  background-image: url(../../images/icon/antenna.svg);
 }
 
 .section-work {
