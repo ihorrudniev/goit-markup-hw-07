@@ -1,7 +1,10 @@
+@import './vendors/modern-normalize';
 @import './utils/variables';
-@import './utils/utilites';
-@import './utils/container';
+@import './utils/fonts';
+@import './base/utilites';
+@import './base/container';
 @import './components/logo';
+@import './components/section';
 @import './components/header';
 @import './components/hero';
 @import './components/button';
